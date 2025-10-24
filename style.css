@@ -80,7 +80,7 @@ html, body{
 
 .Linkedin{
     color: rgb(5, 167, 27);
-    background-color: none;
+    background-color: black;
     border: 2px solid rgb(5, 167, 27);
 }
 
@@ -92,7 +92,7 @@ html, body{
 
 .Email{
     color: rgb(5, 167, 27);
-    background-color: none;
+    background-color: black;
     border: 2px solid rgb(5, 167, 27);
 }
 
