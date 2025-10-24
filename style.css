@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(5, 167, 27); 
+}
+
+
+html, body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    overflow: hidden;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.profile-picture img{
+    width: 25vh;
+    border-radius: 4vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.description p{
+    margin: 3vh;
+    width: 49vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .description p{
+        width: 80%
+    }
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media .button a{
+    display: inline-block;
+    width: 45vh;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Github{
+    color: rgb(5, 167, 27);
+    background-color: black;
+    border: 2px solid rgb(5, 167, 27);
+}
+
+.Github:hover{
+    color: black;
+    background-color: rgb(5, 167, 27);
+    transition: all 0.3s ease;
+}
+
+.Linkedin{
+    color: rgb(5, 167, 27);
+    background-color: none;
+    border: 2px solid rgb(5, 167, 27);
+}
+
+.Linkedin:hover{
+    background-color: rgb(5, 167, 27);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.Email{
+    color: rgb(5, 167, 27);
+    background-color: none;
+    border: 2px solid rgb(5, 167, 27);
+}
+
+.Email:hover{
+    background-color: rgb(5, 167, 27);
+    color: black;
+    transition: all 0.3s ease;
+}
